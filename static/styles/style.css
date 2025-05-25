@@ -245,9 +245,10 @@ table {
 }
 
 .menu-lateral {
-    padding-right: 1.5rem;
-    box-sizing: border-box;
-    min-width: 270px;
+  width: 240px;
+  height: 100vh;
+  position: relative; /* ou absolute, conforme necessário */
+  background-color: #f0f0f0;
 }
 
 .menu-lateral__navegacao {
@@ -401,4 +402,8 @@ html, body {
 .container-geral {
     display: flex;
     min-height: 100vh;
+}
+.conteudo-principal {
+  flex: 1;
+  padding: 20px;
 }
